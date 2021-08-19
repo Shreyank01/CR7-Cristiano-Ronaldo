@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+
+nav #name {
+
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    top: 20px;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 13px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+nav ul li:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+#home {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://wallpaperaccess.com/full/3562758.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.H1 {
+    color: white;
+    font-size: 50px;
+    font-family: Contrail One;
+    font-weight: bold;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.info1 {
+    text-align: left;
+
+}
+
+.info2 {
+    text-align: right;
+    margin-top: -140px;
+}
+
+.info3 {
+    text-align: center;
+    margin-top: -140px;
+}
+
+
+.line {
+    height: 6px;
+    background-color: white;
+    width: 500px;
+    margin-left: 385px;
+    border-radius: 20px;
+
+}
+
+.H2 {
+    color: white;
+    font-weight: 100;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.design {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+#about {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://images8.alphacoders.com/476/thumb-1920-476725.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#wiki {
+    margin-left: 650px;
+    margin-top: -30px;
+    border-radius: 30px;
+}
+
+#OtWeb {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://wallpaperaccess.com/full/2604924.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.button1 {
+    background-color: #ff843d;
+    color: white;
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+    font-size: 17px;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+.button1:hover {
+    background-color: #ff5e00;
+}
+
+
+.web1 h2 {
+    text-align: left;
+}
+
+.web1 a {
+    margin-right: 950px;
+}
+
+.button2 {
+    background-color: #ff843d;
+    color: white;
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+    font-size: 17px;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+.button2:hover {
+    background-color: #ff5e00;
+}
+
+.web2 h2 {
+    margin-right: 100px;
+}
+
+.web2 a {
+    margin-right: 100px;
+}
+
+
+
+.varLine {
+    height: 500px;
+    background-color: white;
+    width: 6px;
+    margin-left: 700px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+
+}
+#videos{
+    text-align: center;
+    height: 140vh;
+    width: 100%;
+    background: url(https://t4.ftcdn.net/jpg/01/39/91/21/360_F_139912114_qDWuzvPui52ckhCMdhSmJoQS1DEiymEf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#contact {
+    background-color: grey;
+    text-align: center;
+
+}
+
+#contact1 a {
+    color: aqua;
+    text-shadow: 2px 2px gainsbro ;
+}
+
+.contact1 h3 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#contact iframe {
+    width: 100%;
+}
+#contact img {
+    height:30px;
+}
